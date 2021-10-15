@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Bitheri/Bitheri.{h,m}', 'Bitheri/{Models,Categories,Core,DatabaseProviders,Script,Bech32,Utils,Log}/*.{h,m}'
 
   # s.dependency 'OpenSSL-Universal', '1.1.180'
-  s.dependency 'OpenSSL', '1.0.1j'
+  s.dependency 'OpenSSL-miaomiao', '1.0.1j'
   s.dependency 'Reachability', '~> 3.1.1'
   s.dependency 'FMDB', '~> 2.3'
   s.dependency 'CocoaLumberjack', '~> 1.9.1'
